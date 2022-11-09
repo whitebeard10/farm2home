@@ -1,0 +1,78 @@
+@import url("https://fonts.googlepis.com/css?family=Montserrat:400,800");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 26px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+body {
+  display: flex;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  margin: 0 auto;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.container {
+  border: 3px solid greenyellow;
+  box-shadow: 0px 14px 28px black;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+  margin: 5px;
+}
+h1 {
+  background-color: antiquewhite;
+  line-height: 40px;
+}
+.pp {
+  color: rgb(30, 120, 120);
+}
+.social-container {
+  margin: 20px 0;
+}
+.social-container a {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}
+
+#fb {
+  color: rgb(79, 79, 250);
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#ins {
+  color: rgb(245, 24, 61);
+  font-size: 25px;
+  text-decoration: none;
+}
+#gm {
+  color: rgb(231, 172, 172);
+  font-size: 25px;
+}
+#tw {
+  color: rgb(94, 94, 249);
+  font-size: 25px;
+  text-decoration: none;
+}

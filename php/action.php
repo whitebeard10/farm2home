@@ -111,4 +111,3 @@
 	  echo $data;
 	}
 ?>
-<center><button ><a href="../html/feedback.html" style="text-decoration:none ;">SUBMIT FEEDBACK??</a></button></center>

@@ -27,8 +27,5 @@ if (isset($_POST['submit'])) {
         header("Location: ../LoginIndex.html?error=invalid_credentials");
         exit();
     }
-
-    // Close the statement
-    $stmt->close();
 }
 ?>

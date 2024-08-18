@@ -18,7 +18,7 @@
 <body>
   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
     <!-- Brand -->
-    <a class="navbar-brand" href="home-soft.html"><i class="fas fa-home"></i>&nbsp;&nbsp;FARM TO HOME</a>
+    <a class="navbar-brand" href="../html/index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;FARM TO HOME</a>
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -77,7 +77,7 @@
             </thead>
             <tbody>
               <?php
-                require 'conigg.php';
+                require 'cartSystemAccess.php';
                 $stmt = $conn->prepare('SELECT * FROM cart');
                 $stmt->execute();
                 $result = $stmt->get_result();

@@ -1,5 +1,5 @@
 <?php
-	require 'conigg.php';
+	require 'cartSystemAccess.php';
 
 	$grand_total = 0;
 	$allItems = '';
@@ -31,7 +31,7 @@
 <body>
   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
     <!-- Brand -->
-    <a class="navbar-brand" href="home-soft.html"><i class="fa fa-home"></i>&nbsp;&nbsp;FARM TO HOME</a>
+    <a class="navbar-brand" href="../html/index.html"><i class="fa fa-home"></i>&nbsp;&nbsp;FARM TO HOME</a>
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>

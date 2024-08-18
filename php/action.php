@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require 'conigg.php';
+	require 'cartSystemAccess.php';
 
 	// Add products into the cart table
 	if (isset($_POST['pid'])) {
@@ -111,4 +111,4 @@
 	  echo $data;
 	}
 ?>
-<center><button ><a href="feedback.html" style="text-decoration:none ;">SUBMIT FEEDBACK??</a></button></center>
+<center><button ><a href="../html/feedback.html" style="text-decoration:none ;">SUBMIT FEEDBACK??</a></button></center>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/farmerlogin.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+    <title>farmer login</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="farmlogg.php" id="login_form" method="POST">
+        <h1>FARMER LOGIN</h1>
+        <br /><br /><br />
+        <p class="pp">Username</p>
+        <input
+          type="email"
+          placeholder="Mail ID"
+          id="username"
+          name="email"
+        /><br /><br />
+        <p class="pp">Password</p>
+        <input
+          type="password"
+          placeholder="Password"
+          id="password"
+          name="password"
+        />
+        <br /><br />
+        <button type="submit" name="submit">Log In</button>
+        <p id="error" style="color: red"></p>
+        <br /><br /><br /><br />
+
+        <div class="social-container">
+          <a href="https:www.facebook.com" class="social" id="fb">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https:www.instagram.com" class="social" id="ins">
+            <i class="fab fa-instagram"> </i>
+          </a>
+          <a href="https://www.gmail.com" class="social" id="gm">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://www.twitter.com" class="social" id="tw">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -98,5 +98,5 @@ For the full license text, please see the [LICENSE](LICENSE) file in the reposit
 
 ---
 
-For more information or to report issues, please visit the [project repository](https://github.com/whitebeard10/farm2home.git).
+For more information or to report issues, please visit the [project repository](https://github.com/whitebeard10/farm2home.git) or reach out to me [LinkedIN](https://www.linkedin.com/in/avinash-chhetri/).
    
